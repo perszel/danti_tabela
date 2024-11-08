@@ -1,0 +1,97 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+
+.table1 th, .table1 td {
+    border: 2px solid black; 
+}
+
+.table1 th {
+    background-color: darkgreen;
+    color: white;
+}
+
+.col-width-50 {
+    width: 50px;
+}
+
+.col-width-200 {
+    width: 200px;
+}
+
+.col-width-100 {
+    width: 100px;
+}
+
+
+.align-left-top {
+    text-align: left;
+    vertical-align: top;
+}
+
+.align-center-middle {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.align-right-bottom {
+    text-align: right;
+    vertical-align: bottom;
+}
+
+
+.table2 th {
+    background-color: orange;
+    color: darkblue;
+}
+
+.table2 td {
+    background-color: white;
+    color: black;
+}
+
+
+.table3 th {
+    font-size: small;
+    background-color: lightgray;
+}
+
+.table3 td {
+    padding: 3px;
+}
+
+.table3 caption {
+    font-style: italic;
+    margin: 3px;
+}
+
+
+.caption1 {
+    caption-side: bottom;
+}
+
+.caption2 {
+    caption-side: left;
+}
+
+.colgrp1 {
+    background: pink;
+}
+
+.tbody1 {
+    color: blue;
+}
+
+.tfoot1 {
+    font-weight: bold;
+    color: green;
+}
